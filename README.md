@@ -36,6 +36,7 @@ This project demonstrates a lightweight RAG system with the following components
 
 ```bash
 pip install pandas faiss-cpu sentence-transformers langchain langchain-groq python-dotenv
+```bash
 
 ## How to Run
 
@@ -48,5 +49,6 @@ Place the dataset wiki_movie_plots_deduped.csv in the project folder.
 Run the script from CLI
 
 ```bash
-python rag_movies.py
+streamlit run app.py
+```bash
 
