@@ -1,0 +1,7 @@
+streamlit>=1.30.0
+pandas>=2.1.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+langchain>=0.1.0
+langchain-groq>=0.0.9
+python-dotenv>=1.0.0
