@@ -34,9 +34,9 @@ This project demonstrates a lightweight RAG system with the following components
 - Python 3.9+  
 - Dependencies:
 
-```bash
+
 pip install pandas faiss-cpu sentence-transformers langchain langchain-groq python-dotenv
-```bash
+
 
 ## How to Run
 
@@ -48,7 +48,17 @@ Place the dataset wiki_movie_plots_deduped.csv in the project folder.
 
 Run the script from CLI
 
-```bash
 streamlit run app.py
-```bash
+
+Type a movie-related question in the input box.
+
+Click “Get Answer”.
+
+The app will display:
+
+Answer from the LLM
+
+Retrieved contexts from the dataset
+
+Reasoning explaining which chunks were used
 
